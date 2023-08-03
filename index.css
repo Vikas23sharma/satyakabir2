@@ -1,0 +1,1579 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#webcontainer {
+    width: 1440px;
+    height: 4937px;
+    /* position: absolute; */
+    top: -2469px;
+    left: -720px;
+    border-radius: 30px;
+    margin: auto;
+}
+
+#coverimgcontainer {
+    width: 1440px;
+    height: 630px;
+    /* background-image: linear-gradient(180deg, rgba(217, 217, 217, 0.51) 0%, rgba(66, 66, 66, 0.4845) 53.12%, rgba(0, 0, 0, 0.4335) 100%); */
+}
+
+#coverphoto {
+    width: 1440px;
+    height: 630px;
+    background-image: linear-gradient(180deg, rgba(217, 217, 217, 0.51) 0%, rgba(66, 66, 66, 0.4845) 53.12%, rgba(0, 0, 0, 0.4335) 100%);
+}
+
+#logocont {
+    width: 139px;
+    height: 64px;
+    position: absolute;
+    top: 14px;
+    left: 150px;
+}
+
+#logo {
+    width: 139px;
+    height: 64px;
+}
+
+#options {
+    width: Hug (376px);
+    height: Hug (17px);
+    display: flex;
+    justify-content: space-between;
+    /* grid-template-columns: repeat(3, 1fr); */
+    gap: 34px;
+    position: absolute;
+    top: 38px;
+    left: 940px;
+    /* border: 1px solid red; */
+}
+
+#register {
+    width: 179px;
+    height: 17px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* border: 1px solid red; */
+}
+
+#Help {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 32px;
+    height: 17px;
+    color: #FFFFFF;
+    /* border: 1px solid red; */
+}
+
+#login {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* width: 97px;
+    height: 17px; */
+    color: #FFFFFF;
+    /* border: 1px solid blue; */
+}
+
+#coverquote {
+    width: 629px;
+    height: 73px;
+    position: absolute;
+    top: 267px;
+    left: 405px;
+    font-family: DM Serif Text;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+#locationandsearchcont {
+    width: 709px;
+    height: 48px;
+    position: absolute;
+    top: 355px;
+    left: 365px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#location {
+    width: 155px;
+    height: 48px;
+    border-radius: 10px;
+    background: white;
+}
+
+#childlocationcontainer {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    width: 121px;
+    height: 25.226890563964844px;
+    top: 11px;
+    left: 17px;
+
+
+}
+
+#country {
+    width: 38px;
+    /* position: absolute; */
+    height: 25.226890563964844px;
+    top: 11px;
+    left: 17px;
+
+}
+
+#weblocation {
+    width: 68px;
+    height: 17px;
+    /* position: absolute; */
+    top: 15px;
+    left: 70px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #757575;
+}
+
+#search {
+
+    width: 534px;
+    height: 48px;
+    left: 175px;
+    border-radius: 10px;
+}
+
+
+#childsearch {
+
+    width: 534px;
+    height: 48px;
+    left: 175px;
+    border-radius: 10px;
+    background: #FFFFFF;
+
+}
+
+#insidesearch {
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    width: 163px;
+    height: 24px;
+    top: 12px;
+    left: 201px;
+
+}
+
+#placeholder {
+    width: 121px;
+    height: 17px;
+    position: absolute;
+    top: 16px;
+    left: 243px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #979797;
+}
+
+#vector {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 12px;
+    left: 201px;
+    padding: 3px 3.3999996185302734px 3.424999237060547px 3px;
+}
+
+
+#vectorimg {
+    width: 17.600000381469727px;
+    height: 17.575000762939453px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    color: #444444;
+}
+
+#frame2 {
+    display: flex;
+    position: absolute;
+    width: Hug (310px);
+    height: Hug (15px);
+    top: 418px;
+    left: 550px;
+    gap: 20px;
+}
+
+#exercisebike {
+    width: 89px;
+    height: 15px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+#tradmill {
+    width: 80px;
+    height: 15px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+#chestpress {
+    width: 101px;
+    height: 15px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+#gps {
+    width: 257px;
+    height: 103px;
+    position: absolute;
+    top: 409px;
+    left: 369px;
+    border-radius: 10px;
+    border: 1px solid #BBBBBB;
+    background: #FFFFFF;
+    box-shadow: 4px 2px 10px 0px #00000040;
+}
+
+#currentlocationtext {
+    width: 80px;
+    height: 12px;
+    position: absolute;
+    top: 416px;
+    left: 404px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #757575;
+}
+
+#detectusinggpstext {
+    width: 85px;
+    height: 12px;
+    position: absolute;
+    top: 416px;
+    left: 529px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4179EA;
+}
+
+#search2 {
+    width: 236px;
+    height: Hug (44px);
+    position: absolute;
+    top: 453px;
+    left: 382px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 10px; */
+    border-radius: 5px;
+    border: 1px;
+    gap: 18px;
+    /* angle: 0 deg */
+    /* background-image: linear-gradient(0deg, #BBBBBB, #BBBBBB),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF); */
+    border: 1px solid #BBBBBB
+}
+
+#searchiconwebcont {
+    width: 24px;
+    height: 24px;
+    padding: 3px 3.3999996185302734px 3.424999237060547px 3px;
+    /* angle: 0 deg */
+}
+
+#searchiconweb {
+    width: 17.600000381469727px;
+    height: 17.575000762939453px;
+    /* position: absolute; */
+    top: 3px;
+    left: 3px;
+}
+
+#searchforcitytext {
+    width: 99px;
+    height: 17px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #979797;
+}
+
+#outerservicecontainer {
+    width: 1070px;
+    height: 263px;
+    position: absolute;
+    top: 522px;
+    left: 185px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 61px 0px #0000002E;
+}
+
+#servicelayer1 {
+    width: 861px;
+    height: 77px;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: 32px;
+    left: 104px;
+}
+
+.st {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #212121;
+}
+
+#service11 {
+    width: 132px;
+    height: 74px;
+    top: 35px;
+    left: 104px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#ac {
+    width: 32px;
+    height: 32px;
+    top: 35px;
+    left: 154px;
+}
+
+#service11desc {
+    width: 132px;
+    height: 17px;
+    top: 92px;
+    left: 104px;
+}
+
+#service12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 47px;
+    height: 74px;
+    top: 35px;
+    left: 286px;
+}
+
+#new {
+    width: 32px;
+    height: 32px;
+    top: 35px;
+    left: 293px;
+}
+
+#service12desc {
+    width: 47px;
+    height: 17px;
+    top: 92px;
+    left: 286px;
+}
+
+#service13 {
+    width: 69px;
+    height: 74px;
+    top: 35px;
+    left: 383px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#electric {
+    width: 32px;
+    height: 32px;
+    top: 35px;
+    left: 400px;
+}
+
+#service13desc {
+    width: 69px;
+    height: 17px;
+    top: 92px;
+    left: 383px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#service14 {
+    width: 92px;
+    height: 74px;
+    top: 35px;
+    left: 502px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#salon {
+    width: 32px;
+    height: 32px;
+    top: 35px;
+    left: 516px;
+}
+
+#service14desc {
+    width: 92px;
+    height: 17px;
+    top: 92px;
+    left: 502px;
+}
+
+#service15 {
+    width: 115px;
+    height: 74px;
+    top: 35px;
+    left: 644px;
+}
+
+#massage {
+    width: 32px;
+    height: 32px;
+    top: 35px;
+    left: 516px;
+}
+
+#service15desc {
+    width: 115px;
+    height: 17px;
+    top: 92px;
+    left: 644px;
+}
+
+#service16 {
+    width: 51px;
+    height: 74px;
+    top: 32px;
+    left: 809px;
+}
+
+#car {
+    width: 32px;
+    height: 32px;
+    top: 32px;
+    left: 818px;
+}
+
+#service16desc {
+    width: 51px;
+    height: 17px;
+    top: 89px;
+    left: 809px;
+}
+
+#service17 {
+    width: 55px;
+    height: 74px;
+    top: 32px;
+    left: 910px;
+}
+
+#plumber {
+    width: 32px;
+    height: 32px;
+    top: 32px;
+    left: 921px;
+}
+
+#service17desc {
+    width: 55px;
+    height: 17px;
+    top: 89px;
+    left: 910px;
+}
+
+#servicelayer2 {
+    width: 708px;
+    height: 77px;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: 165px;
+    left: 181px;
+}
+
+#service21 {
+    width: 112px;
+    height: 74px;
+    top: 168px;
+    left: 181px;
+}
+
+#service21desc {
+    width: 112px;
+    height: 17px;
+    top: 225px;
+    left: 181px;
+}
+
+#service22 {
+    width: 54px;
+    height: 74px;
+    top: 168px;
+    left: 343px;
+}
+
+#service22desc {
+    width: 54px;
+    height: 17px;
+    top: 225px;
+    left: 343px;
+}
+
+#service23 {
+    width: 104px;
+    height: 74px;
+    top: 168px;
+    left: 447px;
+}
+
+#service23desc {
+    width: 104px;
+    height: 17px;
+    top: 225px;
+    left: 447px;
+
+}
+
+#service24 {
+    width: 48px;
+    height: 74px;
+    top: 168px;
+    left: 601px;
+}
+
+#service24desc {
+    width: 48px;
+    height: 17px;
+    top: 225px;
+    left: 601px;
+}
+
+#service25 {
+    width: 85px;
+    height: 74px;
+    top: 168px;
+    left: 699px;
+}
+
+#service25desc {
+    width: 85px;
+    height: 17px;
+    top: 225px;
+    left: 699px;
+}
+
+#service26 {
+    width: 55px;
+    height: 74px;
+    top: 165px;
+    left: 834px;
+}
+
+#service26desc {
+    width: 55px;
+    height: 17px;
+    top: 222px;
+    left: 834px;
+}
+
+#bookingcontainer {
+    width: 1440px;
+    height: 226px;
+    position: absolute;
+    top: 836px;
+    left: -3px;
+}
+
+#bookingcontainertopborder {
+    width: 1440px;
+    height: 4px;
+    margin: auto;
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 836px;
+    left: -3px;
+    background: #D9D9D9;
+}
+
+#frame4 {
+    width: Hug (1, 241px);
+    height: Hug (172px);
+    position: absolute;
+    margin: auto;
+    top: 890px;
+    left: 97px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    /* border: 1px solid red; */
+}
+
+#firstbooking {
+    width: 295px;
+    height: 172px;
+}
+
+.rectangle61 {
+    width: 295px;
+    height: 172px;
+    border-radius: 10px;
+    background: #B61575;
+}
+
+#cardio {
+    width: 155px;
+    height: 172px;
+    position: absolute;
+    left: 140px;
+    border-radius: 0px 9px 9px 0px;
+}
+
+#bookingbtn1 {
+    width: 92px;
+    height: 31px;
+    position: absolute;
+    top: 117px;
+    left: 19px;
+    border-radius: 5px;
+    background: #7C0D51;
+
+}
+
+#booknowtext1 {
+    width: 76px;
+    height: 19px;
+    position: absolute;
+    top: 123px;
+    left: 27px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#service1 {
+    position: absolute;
+    width: 123px;
+    height: 57px;
+    top: 28px;
+    left: 17px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.rectangle62 {
+    width: 295px;
+    height: 172px;
+    border-radius: 10px;
+    background: #07767D;
+
+}
+
+#cycling {
+    width: 163px;
+    height: 172px;
+    position: absolute;
+    left: 448px;
+    border-radius: 0px 9px 9px 0px;
+}
+
+#bookingbtn2 {
+    width: 92px;
+    height: 31px;
+    position: absolute;
+    top: 117px;
+    left: 334px;
+    border-radius: 5px;
+    background: #055055;
+}
+
+#booknowtext2 {
+    width: 76px;
+    height: 19px;
+    position: absolute;
+    color: #FFFFFF;
+    top: 123px;
+    left: 342px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#service2 {
+    width: 96px;
+    height: 57px;
+    position: absolute;
+    top: 28px;
+    left: 332px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.rectangle63 {
+    width: 295px;
+    height: 172px;
+    border-radius: 10px;
+    background: #8D9E2C;
+}
+
+#machine {
+    width: 177px;
+    height: 171px;
+    position: absolute;
+    left: 749px;
+    border-radius: 0px 9px 9px 0px;
+}
+
+#bookingbtn3 {
+    width: 92px;
+    height: 31px;
+    position: absolute;
+    top: 117px;
+    left: 648px;
+    border-radius: 5px;
+    background: #616C20;
+}
+
+#booknowtext3 {
+    width: 76px;
+    height: 19px;
+    position: absolute;
+    top: 123px;
+    left: 656px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+#service3 {
+    width: 99px;
+    height: 100px;
+    position: absolute;
+    top: 26px;
+    left: 646px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+#beautyservice {
+    width: 40px;
+    height: 15px;
+    position: absolute;
+    top: 77px;
+    left: 647px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.rectangle64 {
+    width: 295px;
+    height: 172px;
+    /* position: absolute;
+    left: 946px; */
+    border-radius: 10px;
+    background: #0073C3;
+}
+
+#women {
+    width: 153px;
+    height: 172px;
+    position: absolute;
+    left: 1088px;
+    border-radius: 0px 9px 9px 0px;
+}
+
+#bookingbtn4 {
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    top: 117px;
+    left: 967px;
+    border-radius: 5px;
+    background: #004D85;
+}
+
+#booknowtext4 {
+    width: 76px;
+    height: 19px;
+    position: absolute;
+    top: 123px;
+    left: 975px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+#service4 {
+    width: 117px;
+    height: 38px;
+    position: absolute;
+    top: 28px;
+    left: 963px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+#haircutservice {
+    width: 123px;
+    height: 15px;
+    position: absolute;
+    top: 78px;
+    left: 966px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+#exercisecontainertopboundary {
+    width: 1440px;
+    height: 4px;
+    position: absolute;
+    top: 1134px;
+    background: #D9D9D9;
+}
+
+#newcategoryheading {
+    width: 610px;
+    height: 58px;
+    position: absolute;
+    top: 1165px;
+    left: 415px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#category1 {
+    width: 399px;
+    height: 224.25px;
+    position: absolute;
+    top: 1273px;
+    left: 99px;
+}
+
+.cat1type {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#cat1text1 {
+    width: 128px;
+    height: 17px;
+    position: absolute;
+    top: 1528px;
+    left: 234px;
+}
+
+.cat2type {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#cat1text2 {
+    width: 160px;
+    height: 17px;
+    position: absolute;
+    top: 1555px;
+    left: 218px;
+}
+
+#category2 {
+    width: 399px;
+    height: 224.25px;
+    position: absolute;
+    top: 1273px;
+    left: 520px;
+}
+
+#cat2text1 {
+    width: 73px;
+    height: 17px;
+    position: absolute;
+    top: 1528px;
+    left: 683px;
+}
+
+#cat2text2 {
+    width: 83px;
+    height: 17px;
+    position: absolute;
+    top: 1555px;
+    left: 678px;
+}
+
+#category3 {
+    width: 399px;
+    height: 224.25px;
+    position: absolute;
+    top: 1273px;
+    left: 939px;
+}
+
+#cat3text1 {
+    width: 123px;
+    height: 17px;
+    position: absolute;
+    top: 1528px;
+    left: 1077px;
+}
+
+#hostelcontainertopboundary {
+    width: 1440px;
+    height: 4px;
+    position: absolute;
+    top: 1644px;
+    left: -2px;
+    background: #D9D9D9;
+}
+
+.headingtypo {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#hostelserviceheading {
+    width: 338px;
+    height: 58px;
+    position: absolute;
+    top: 1698px;
+    left: 549px;
+}
+
+#hostelservicescont {
+    width: Hug (1, 239px);
+    height: Hug (299px);
+    position: absolute;
+    top: 1806px;
+    left: 97px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 21px;
+}
+
+#hs1 {
+    width: 399px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hs2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 399px;
+    height: 299px;
+}
+
+#hs3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 399px;
+    height: 299px;
+}
+
+#appliancecontainertopboundary {
+    width: 1440px;
+    height: 4px;
+    position: absolute;
+    top: 2176px;
+    background: #D9D9D9;
+}
+
+#applianceheading {
+    width: 260px;
+    height: 58px;
+    position: absolute;
+    top: 2230px;
+    left: 589px;
+}
+
+#appliancesubheading {
+    width: 679px;
+    height: 39px;
+    position: absolute;
+    top: 2297px;
+    left: 379px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #727272;
+}
+
+#appliancecont {
+    width: Hug (1, 239px);
+    height: Hug (299px);
+    position: absolute;
+    top: 2387px;
+    left: 99px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 21px;
+}
+
+#appliancecont div {
+    width: 399px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#homerepaircontainertopboundary {
+    width: 1440px;
+    height: 4px;
+    position: absolute;
+    top: 2736px;
+    background: #D9D9D9;
+}
+
+#homerepairheading {
+    width: 297px;
+    height: 58px;
+    position: absolute;
+    top: 2790px;
+    left: 571px;
+}
+
+#homerepairsubheading {
+    width: 824px;
+    height: 39px;
+    position: absolute;
+    top: 2857px;
+    left: 306px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #727272;
+}
+
+#homerepaircont {
+    width: Hug (1, 243px);
+    height: Hug (212.8px);
+    position: absolute;
+    top: 2947px;
+    left: 99px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 21px;
+}
+
+#homerepaircont div {
+    width: 295px;
+    height: 212.798828125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cleaningtopboundary {
+    width: 1440px;
+    height: 4px;
+    position: absolute;
+    top: 3209.798828125px;
+    left: -2px;
+    background: #D9D9D9;
+}
+
+#cleaningheading {
+    width: 549px;
+    height: 58px;
+    position: absolute;
+    top: 3263.798828125px;
+    left: 445px;
+}
+
+#cleaningcont {
+    width: Hug (1, 243px);
+    height: Hug (212.8px);
+    position: absolute;
+    top: 3371.798828125px;
+    left: 99px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 21px;
+}
+
+#cleaningcont div {
+    width: 295px;
+    height: 212.798828125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#addservicestopboundary {
+    width: 1440px;
+    height: 4px;
+    position: absolute;
+    top: 3635px;
+    background: #D9D9D9;
+}
+
+#addservicesheading {
+    width: 304px;
+    height: 58px;
+    position: absolute;
+    top: 3689px;
+    left: 569px;
+}
+
+.up {
+    width: 295px;
+    height: 302px;
+    position: absolute;
+    top: 3794px;
+    background: linear-gradient(0deg, #DDDADA, #DDDADA),
+        linear-gradient(0deg, #FAFAFA, #FAFAFA);
+    border: 0.76px solid #DDDADA;
+    /* border-radius: 10px; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.down {
+    width: 295px;
+    height: 302px;
+    position: absolute;
+    top: 4126px;
+    background: linear-gradient(0deg, #DDDADA, #DDDADA),
+        linear-gradient(0deg, #FAFAFA, #FAFAFA);
+    border: 0.76px solid #DDDADA;
+    /* border-radius: 10px; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.servimg {
+    width: 264.587646484375px;
+    height: 179.4329833984375px;
+    position: absolute;
+    top: 10.6444091796875px;
+    left: 15.2061767578125px;
+    border-radius: 10.644328117370605px;
+}
+
+.ratingdiv {
+    width: 89.71649169921875px;
+    height: 27.37113380432129px;
+    position: absolute;
+    top: 149.0206298828125px;
+    left: 188.55670166015625px;
+    background: #D9D9D9BF;
+}
+
+.rating {
+    width: 63px;
+    height: 25px;
+    position: absolute;
+    top: 150.541259765625px;
+    left: 209.84536743164062px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: white;
+}
+
+.star {
+    width: 16.726804733276367px;
+    height: 15.17587947845459px;
+    position: absolute;
+    top: 154.7940673828125px;
+    left: 191.59796142578125px;
+    background: linear-gradient(90deg, #FFD708 52.49%, #FFFFFF 52.49%);
+}
+
+.line1 {
+    width: 75px;
+    height: 25px;
+    position: absolute;
+    top: 196.1597900390625px;
+    left: 19.2474365234375px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #353638;
+}
+
+.line2 {
+    width: 142px;
+    height: 25px;
+    position: absolute;
+    top: 218.9691162109375px;
+    left: 19.2474365234375px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #353638;
+}
+
+.dollar {
+    width: 38px;
+    height: 25px;
+    position: absolute;
+    top: 206.8040771484375px;
+    left: 225.05154418945312px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #F47B20;
+}
+
+.bottombtn {
+    width: 295px;
+    height: 41.70103073120117px;
+    position: absolute;
+    top: 252.6031494140625px;
+    background: #F47B20;
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    padding-top: 4%;
+    /* border-radius: 10px; */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.addtofav {
+    width: 153px;
+    height: 25px;
+    position: absolute;
+    top: 304.587646484375px;
+    left: 70.94842529296875px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: white;
+}
+
+#one {
+    left: 100px;
+}
+
+#two {
+    left: 415px;
+}
+
+#three {
+    left: 730px;
+}
+
+#four {
+    left: 1045px;
+}
+
+#five {
+    left: 100px;
+}
+
+#six {
+    left: 415px;
+}
+
+#seven {
+    left: 730px;
+}
+
+#eight {
+    left: 1045px;
+}
+
+#footer {
+    width: 1440px;
+    height: 412px;
+    position: absolute;
+    top: 4525px;
+    background: #5B5B5B;
+}
+
+#bottomlogo {
+    width: 305px;
+    height: 140px;
+    position: absolute;
+    top: 73px;
+    left: 55px;
+}
+
+#googleplay {
+    width: 198px;
+    height: 66px;
+    position: absolute;
+    top: 60px;
+    left: 1164px;
+}
+
+#applestore {
+    width: 198px;
+    height: 66px;
+    position: absolute;
+    top: 136.62060546875px;
+    left: 1164px;
+}
+
+#copyright {
+    width: 293px;
+    height: 17px;
+    position: absolute;
+    top: 342px;
+    left: 560px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+#servicebottom {
+    width: 59px;
+    height: 19px;
+    position: absolute;
+    top: 51px;
+    left: 457px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.bottomleft {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 112px;
+    height: 17px;
+    position: absolute;
+    left: 457px;
+}
+
+.bottomright {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 112px;
+    height: 17px;
+    position: absolute;
+    left: 795px;
+}
+
+#app{
+    top: 86px;
+}
+
+#homep{
+    top: 113px;
+}
+
+#cp{
+    top: 140px;
+}
+
+#dis{
+    top: 167px;
+}
+
+#hr{
+    top: 194px;
+}
+
+#au{
+    top: 70px;
+}
+
+#pp{
+    top: 97px;
+}
+
+#tc{
+    top: 124px;
+}
+
+#cu{
+    top: 151px;
+}
+
+#lg{
+    top:178px ;
+}
